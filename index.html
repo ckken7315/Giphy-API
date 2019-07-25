@@ -1,43 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Giphy API</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <title>GifAPi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <h1>Giphy Search</h1>
-                <div id="buttons-view"></div>
-            </div>
-
-            <div class="col-md-3">
-                <form id="movie-form">
-                    <label for="movie-input">Add Your Subject</label>
-                    <input type="text" id="movie-input"><br>
-
-                    <input id="add-movie" type="submit" value="Add!">
-                </form>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-12">
-                <div id="movies-view"></div>
-                <div id="showMovie"></div>
-            </div>
-        </div>
-
-
-
-    
+  <div class="row">
+    <div class="col-md-9 col-12">
+      <h1>Animal Giphy API</h1>
+      <h6>Instructions: Please click the Animla Giphy, and you can add different kind of animal you like!</h6>
+      <div id="buttons"></div>
     </div>
-    <script src="assets/javascripts/api.js"></script>
-    <script src="assets/javascripts/app.js"></script>
+    <div class="col-md-3 col-12">
+      <form id="animal-form">
+            <label for="animal-input">Add an Animal</label><br>
+            <input type="text" id="animal-input"><br>
+
+            
+            <input id="add-animal" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-12 col-12" id="gifs-appear-here"></div>
+  </div>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 
+</html>

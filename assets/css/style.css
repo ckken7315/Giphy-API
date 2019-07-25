@@ -1,0 +1,68 @@
+body {
+	margin: 20px;
+	background-color: skyblue;
+}
+
+h1 {
+    
+    font-weight: bold;
+    color: blueviolet;
+}
+
+button {
+  background-color: royalblue;
+  color: white;
+  margin: 5px;
+  padding: 3px 15px;
+}
+
+#buttons {
+	margin-top: 20px;
+}
+
+p {
+	color: white;
+	margin-top: 30px;
+	line-height: 2px;
+}
+
+form {
+	color: white;
+	padding: 15px;
+	border: 2px solid black;
+}
+
+#add-animal {
+	background-color: orange;
+	color: royalblue;
+	margin-top: 10px;
+	padding: 3px 15px;
+}
+
+h6 {
+	color: purple;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+.item {
+	margin-right: 20px;
+}
+
+.gif {
+	border: 3px solid palevioletred;
+}
+
+
+@media screen and (max-width: 640px) {
+
+	h6 {
+		margin-top: 30px;
+	}
+
+	form {
+		margin-top: 20px;
+	}
+
+}
